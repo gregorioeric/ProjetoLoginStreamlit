@@ -4,6 +4,8 @@ from controllers.load_usuarios import load_usuarios
 from components.cadastro import cadastrar_aluno
 from components.logout import logout
 
+st.set_page_config("Projeto Sistema de Cadastro", layout="wide")
+
 st.title("Projeto Streamlit")
 
 if "email" not in st.session_state:
