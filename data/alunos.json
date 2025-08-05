@@ -1,0 +1,10 @@
+[
+    {
+        "id_aluno": 1,
+        "nome_aluno": "Eric Gregorio",
+        "email_aluno": "aquino@aquino.com",
+        "cpf_aluno": "65465465465",
+        "dataNasc_aluno": "1963-08-23",
+        "telefone": "11922558877"
+    }
+]

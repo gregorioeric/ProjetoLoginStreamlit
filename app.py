@@ -3,6 +3,7 @@ import time
 from controllers.load_usuarios import load_usuarios
 from components.cadastro import cadastrar_aluno
 from components.logout import logout
+from components.show_alunos import show_alunos
 
 st.set_page_config("Projeto Sistema de Cadastro", layout="wide")
 
@@ -44,6 +45,9 @@ def main_page():
     st.subheader("Cadastro")
     if st.button("Abrir Formulário de Cadastro"):
       cadastrar_aluno()
+    
+    st.subheader("Lista de Alunos")
+    show_alunos()
 
   with tabs[2]:
     st.subheader("Logout")
